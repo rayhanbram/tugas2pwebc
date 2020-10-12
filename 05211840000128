@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Bram</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:lavender">
+
+<div class="jumbotron text-center" style="background-color:steelblue">
+  <h1 style="font-family:arial; font-weight:bold">SI Online</h1>
+  <h5>Dimanapun Kapanpun</h5> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Class</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Course</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Profile</a>
+    </li>
+  </ul>
+</nav>
+
+<br>
+<div class="container">
+<h2>Course Progress</h2>
+  <div class="progress">
+    <div class="progress-bar" style="width:20%">20%</div>
+  </div>
+</div>
+
+<br>   
+<div class="container">
+ <div class="alert alert-success">
+    <strong>Congratulations!</strong>  You have passed this lesson.
+  </div>
+</div>
+  
+<div class="container">
+  <h2>Introduction</h2>
+  <p>Mengetahui dan memahami pengertian dari HTML, CSS, dan Bootstrap.</p>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          HTML
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          HTML adalah singkatan dari Hypertext Markup Language. HTML memungkinkan seorang user untuk membuat dan menyusun bagian paragraf, heading, link atau tautan, dan blockquote untuk halaman web dan aplikasi.
+
+HTML bukanlah bahasa pemrograman, dan itu berarti HTML tidak punya kemampuan untuk membuat fungsionalitas yang dinamis. Sebagai gantinya, HTML memungkinkan user untuk mengorganisir dan memformat dokumen, sama seperti Microsoft Word.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        CSS
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+
+CSS dibuat dan dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. Anda hanya perlu menulis markup untuk situs.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Bootstrap
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Bootstrap adalah framework open-source khusus front end yang awalnya dibuat oleh Mark Otto dan Jacob Thornton untuk mempermudah dan mempercepat pengembangan web di front end.
+
+Bootstrap memiliki semua jenis HTML dan template desain berbasis CSS untuk berbagai fungsi dan komponen, seperti navigasi, sistem grid, carousel gambar, dan tombol (button).
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<div class="container">
+  <button type="button" class="btn btn-primary btn-block">Complete Lesson</button>
+</div>
+<br>
+
+<div class="container">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled"><a class="page-link" href="javascript:void(0);">Previous</a></li>
+    <li class="page-item active"><a class="page-link" href="javascript:void(0);">1</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+    <li class="page-item"><a class="page-link" href="javascript:void(0);">Next</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
